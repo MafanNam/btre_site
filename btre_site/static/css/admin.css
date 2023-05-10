@@ -1,0 +1,36 @@
+#header {
+    height: 50px;
+    background: deeppink;
+    color: white;
+}
+
+#branding {
+    color: black;
+}
+
+a:link,
+a:visited {
+    color: pink;
+}
+
+div.breadcrumbs {
+    background: hotpink;
+    color: darkmagenta;
+}
+
+div.breadcrumbs a {
+    color: white;
+}
+
+.module h2, .module caption, .inline-group h2 {
+    background: hotpink;
+}
+
+
+.button, input[type=submit], input[type=button], .submit-row input, a.button {
+    background: deeppink;
+    color: white;
+
+}
+
+
