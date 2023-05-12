@@ -2,7 +2,12 @@
 {% load static %}
 {% load humanize %}
 
+{% block title %} | Welcome{% endblock title %}
+
 {% block content %}
+
+    <!-- Alert -->
+    {% include 'partials/_alerts.html' %}
 
     <!-- Showcase -->
     <section id="showcase">
